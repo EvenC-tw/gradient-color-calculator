@@ -1,8 +1,8 @@
 {
-  "name": "@evenc.studio/gradient-color-calculator",
-  "version": "1.0.0",
+  "name": "@evenifumiss/gradient-color-calculator",
+  "version": "1.0.1",
   "description": "calculate gradient colors between two colors",
-  "main": "dist/index.ts",
+  "main": "dist/index.min.js",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rimraf dist && tsc && rollup -c rollup.config.js",
@@ -12,16 +12,17 @@
     "gradient",
     "color"
   ],
-  "author": "Even",
+  "author": "Even <even@evenc.studio>",
   "license": "MIT",
   "devDependencies": {
-    "@open-wc/building-rollup": "^2.2.1",
     "@types/node": "^18.11.18",
-    "deepmerge": "^4.2.2",
     "rimraf": "^3.0.2",
     "rollup": "^3.9.0",
-    "rollup-plugin-terser": "^7.0.2",
     "typescript": "^4.9.4"
   },
-  "type": "module"
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvenC-tw/gradient-color-calculator.git"
+  }
 }
