@@ -1,5 +1,5 @@
 // Calculate gradient colors
-function getGradientColors({
+export default function getGradientColors({
   startColor = undefined,
   endColor = undefined,
   amount = undefined,
@@ -48,5 +48,3 @@ function getHexString(color: number): string {
   const hex = color.toString(16);
   return hex.length === 1 ? `0${hex}` : hex;
 }
-
-module.exports = getGradientColors;
